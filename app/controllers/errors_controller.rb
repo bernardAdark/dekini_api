@@ -4,4 +4,6 @@ class ErrorsController < ApplicationController
 		render json: {error: {message: "Resource is not available", status: 404}}
 	end
 
+	
+
 end
